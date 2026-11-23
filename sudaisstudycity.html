@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SudaisStudyCity | O Level Biology</title>
+<style>
+:root{--navy:#14243b;--blue:#2563eb;--mint:#dff7ed;--ink:#172033;--muted:#65728a;--paper:#f5f7fb;--line:#e3e9f2;--white:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+header{background:linear-gradient(125deg,#14243b,#203e66);color:white;padding:30px max(20px,calc((100% - 1100px)/2)) 26px}
+.brand{font-size:13px;letter-spacing:.22em;font-weight:800;color:#b9d5ff}.hero{display:flex;gap:24px;align-items:center;justify-content:space-between;flex-wrap:wrap}.hero h1{font-size:clamp(34px,6vw,56px);line-height:1.05;margin:12px 0}.hero p{color:#d8e5f6;max-width:610px;margin:0}.pill{display:inline-block;background:#dff7ed;color:#14563f;border-radius:99px;padding:6px 12px;font-size:12px;font-weight:800}
+.layout{max-width:1100px;margin:24px auto;padding:0 18px;display:grid;grid-template-columns:250px 1fr;gap:22px}.side,.panel{background:white;border:1px solid var(--line);border-radius:18px;box-shadow:0 8px 28px #17203308}.side{padding:16px;height:max-content;position:sticky;top:14px}.side h3{margin:4px 8px 10px;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.nav{display:block;width:100%;text-align:left;border:0;background:transparent;padding:10px 11px;border-radius:10px;color:#33415a;font:inherit;cursor:pointer}.nav:hover,.nav.active{background:#eaf1ff;color:#174ea6;font-weight:700}.content{min-width:0}.panel{padding:clamp(18px,3vw,30px);margin-bottom:18px}.eyebrow{color:#2563eb;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.panel h2{font-size:clamp(25px,4vw,34px);line-height:1.2;margin:5px 0 12px}.panel h3{margin:24px 0 7px;font-size:19px}.panel p{margin:8px 0}.callout{background:#eff6ff;border-left:4px solid #3b82f6;padding:12px 15px;border-radius:8px;margin:15px 0}.key{background:#f0fbf6;border-left:4px solid #24a16b;padding:12px 15px;border-radius:8px;margin:15px 0}.diagram{margin:18px 0;padding:14px;border:1px solid var(--line);border-radius:14px;background:#fbfdff;overflow-x:auto}.diagram svg{display:block;max-width:100%;height:auto;margin:auto}.caption{font-size:13px;color:var(--muted);text-align:center;margin-top:8px}.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.tile{background:#f7f9fc;border:1px solid var(--line);border-radius:12px;padding:13px}.tile b{display:block;color:#183b69}.check{padding-left:20px}.check li{margin:6px 0}.hidden{display:none}footer{text-align:center;color:var(--muted);padding:22px;font-size:13px}
+@media(max-width:760px){.layout{grid-template-columns:1fr}.side{position:static}.navwrap{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px}.grid2{grid-template-columns:1fr}}
+@media print{header{padding:20px}.layout{display:block}.side{display:none}.panel{box-shadow:none;break-inside:avoid}.hidden{display:block}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">SUDAISSTUDYCITY</div>
+  <div class="hero">
+    <div><span class="pill">CAMBRIDGE O LEVEL BIOLOGY</span><h1>Learn it. Picture it.<br>Remember it.</h1>
+    <p>Your Biology revision hub: clear explanations, exam-focused key points and simple labelled diagrams, organised by topic.</p></div>
+    <div style="font-size:76px" aria-label="biology symbol">🧬</div>
+  </div>
+</header>
+<div class="layout">
+<aside class="side">
+  <h3>Revision topics</h3>
+  <div class="navwrap" id="nav">
+    <button class="nav active" data-page="start">🏠 Start here</button>
+    <button class="nav" data-page="cells">01 · Cells</button>
+    <button class="nav" data-page="molecules">02 · Molecules</button>
+    <button class="nav" data-page="enzymes">03 · Enzymes</button>
+    <button class="nav" data-page="plant">04 · Plant nutrition</button>
+    <button class="nav" data-page="human">05 · Human nutrition</button>
+    <button class="nav" data-page="transport">06 · Transport</button>
+    <button class="nav" data-page="respiration">07 · Respiration</button>
+    <button class="nav" data-page="excretion">08 · Excretion</button>
+    <button class="nav" data-page="coordination">09 · Coordination</button>
+    <button class="nav" data-page="reproduction">10 · Reproduction</button>
+    <button class="nav" data-page="inheritance">11 · Inheritance</button>
+    <button class="nav" data-page="ecology">12 · Ecology</button>
+  </div>
+</aside>
+<main class="content">
+<section class="panel page" id="start">
+<div class="eyebrow">Welcome to your study space</div><h2>Biology, made clearer.</h2>
+<p>Use the topic list to revise one section at a time. Each page contains definitions, processes and diagrams to help you understand the ideas before practising exam questions.</p>
+<div class="grid2">
+<div class="tile"><b>📘 Understand</b>Read the short explanations and learn the scientific vocabulary.</div>
+<div class="tile"><b>🔎 Visualise</b>Study the diagrams and trace each labelled structure.</div>
+<div class="tile"><b>🧠 Recall</b>Close the notes and explain the process in your own words.</div>
+<div class="tile"><b>✍️ Practise</b>Use your textbook and past-paper questions to apply what you learned.</div>
+</div>
+<div class="callout"><b>Exam reminder:</b> Learn the exact meaning of command words such as describe, explain, compare and suggest. Use precise biological terms.</div>
+<h3>How to use these notes</h3><ol class="check"><li>Choose one topic from the left-hand menu.</li><li>Read the notes and redraw the diagram from memory.</li><li>Make a mini glossary of unfamiliar terms.</li><li>Attempt topical questions and check answers against the mark scheme.</li></ol>
+<p><small>These are original study notes, not an official Cambridge publication. Always compare your revision with the syllabus and the resources provided by your school.</small></p>
+</section>
+
+<section class="panel page hidden" id="cells">
+<div class="eyebrow">Topic 01</div><h2>Cell structure and organisation</h2>
+<p>The cell is the basic structural and functional unit of living organisms. Organisms may be unicellular (one cell) or multicellular (many cells).</p>
+<div class="diagram"><svg viewBox="0 0 620 310" role="img" aria-label="Simplified animal cell diagram"><ellipse cx="270" cy="150" rx="190" ry="112" fill="#e8f1ff" stroke="#2864a8" stroke-width="4"/><ellipse cx="270" cy="150" rx="48" ry="40" fill="#c6b5f3" stroke="#6446a5" stroke-width="3"/><circle cx="283" cy="145" r="12" fill="#8066c2"/><g fill="#f5c77d" stroke="#a66a20" stroke-width="2"><ellipse cx="150" cy="130" rx="27" ry="12"/><ellipse cx="365" cy="190" rx="27" ry="12"/></g><g fill="none" stroke="#168b83" stroke-width="5"><path d="M190 85 Q220 60 245 92 Q220 115 195 105"/><path d="M330 95 Q355 70 380 100 Q355 125 330 115"/></g><g stroke="#26364c" stroke-width="2" fill="none"><path d="M315 145 L470 80 L540 80"/><path d="M150 130 L75 75 L25 75"/><path d="M270 190 L270 265 L420 265"/><path d="M365 190 L450 225 L540 225"/></g><g font-size="16" fill="#172033"><text x="545" y="85">Nucleus</text><text x="10" y="68">Mitochondrion</text><text x="425" y="285">Cytoplasm</text><text x="545" y="230">Cell membrane</text></g></svg><div class="caption">Simplified animal cell — diagram is not to scale.</div></div>
+<h3>Main cell structures</h3><ul class="check"><li><b>Cell membrane:</b> controls movement of substances into and out of the cell; it is selectively permeable.</li><li><b>Cytoplasm:</b> where many chemical reactions take place, controlled by enzymes.</li><li><b>Nucleus:</b> contains chromosomes made of DNA and controls cell activities.</li><li><b>Mitochondria:</b> site of aerobic respiration and ATP production.</li><li><b>Ribosomes:</b> site of protein synthesis.</li></ul>
+<h3>Plant cells also have</h3><ul class="check"><li><b>Cell wall:</b> made of cellulose; strengthens and supports the cell.</li><li><b>Chloroplasts:</b> contain chlorophyll to absorb light for photosynthesis.</li><li><b>Permanent vacuole:</b> contains cell sap and helps maintain turgor.</li></ul>
+<div class="key"><b>Remember:</b> Plant cells have a cell wall, chloroplasts (in photosynthetic cells) and a large permanent vacuole. Animal cells do not.</div>
+<h3>Levels of organisation</h3><p><b>Cell → tissue → organ → organ system → organism.</b> A tissue is a group of similar cells working together; an organ contains different tissues working together.</p>
+</section>
+
+<section class="panel page hidden" id="molecules">
+<div class="eyebrow">Topic 02</div><h2>Biological molecules</h2>
+<p>Living organisms contain large molecules built from smaller units. The main groups studied are carbohydrates, proteins and lipids. Water is also essential to life.</p>
+<div class="grid2"><div class="tile"><b>Carbohydrates</b>Contain carbon, hydrogen and oxygen. Used as an energy source; starch is a plant storage carbohydrate and glycogen is an animal storage carbohydrate.</div><div class="tile"><b>Proteins</b>Made from amino acids. Needed for growth and repair; enzymes are proteins.</div><div class="tile"><b>Lipids</b>Made from glycerol and fatty acids. Store energy, provide insulation and form cell membranes.</div><div class="tile"><b>Water</b>A solvent and transport medium; it is involved in many chemical reactions and helps regulate temperature.</div></div>
+<h3>Food tests</h3><ul class="check"><li><b>Starch:</b> add iodine solution. Positive result: orange-brown to blue-black.</li><li><b>Reducing sugar:</b> add Benedict's solution and heat in a hot water bath. Positive result: green, yellow, orange or brick-red precipitate, depending on concentration.</li><li><b>Protein:</b> use the Biuret test. Positive result: blue to lilac/purple.</li><li><b>Lipid:</b> ethanol emulsion test. A cloudy white emulsion indicates lipid.</li></ul>
+<div class="callout"><b>Exam tip:</b> For food-test questions, state the reagent, any heating step, and the positive colour/result.</div>
+</section>
+
+<section class="panel page hidden" id="enzymes">
+<div class="eyebrow">Topic 03</div><h2>Enzymes</h2>
+<p>Enzymes are biological catalysts. They speed up chemical reactions without being used up. Most enzymes are proteins and each enzyme has an active site with a specific shape.</p>
+<div class="diagram"><svg viewBox="0 0 620 245" role="img" aria-label="Lock and key enzyme diagram"><path d="M75 70 Q75 35 115 35 H235 Q275 35 275 75 V105 Q275 130 250 130 H215 V155 H135 V130 H100 Q75 130 75 105Z" fill="#bde9d9" stroke="#17856b" stroke-width="4"/><path d="M155 155 V125 H195 V155" fill="none" stroke="#17856b" stroke-width="4"/><path d="M360 75 Q390 35 420 75 L400 115 H380Z" fill="#f5c77d" stroke="#a66a20" stroke-width="3"/><path d="M440 75 Q470 35 500 75 L480 115 H460Z" fill="#f5c77d" stroke="#a66a20" stroke-width="3"/><path d="M295 95 H340" stroke="#334155" stroke-width="3"/><path d="M330 85 L342 95 L330 105" fill="none" stroke="#334155" stroke-width="3"/><g font-size="16" fill="#172033"><text x="85" y="195">Enzyme</text><text x="365" y="155">Substrate</text><text x="285" y="225">Simplified lock-and-key model</text></g></svg><div class="caption">The substrate fits the enzyme's active site; products are released after the reaction.</div></div>
+<h3>Factors affecting enzyme activity</h3><ul class="check"><li><b>Temperature:</b> increasing temperature raises kinetic energy and collision frequency up to the optimum. Above the optimum, bonds maintaining the enzyme's shape break; the active site changes shape and the enzyme is denatured.</li><li><b>pH:</b> each enzyme has an optimum pH. Very acidic or alkaline conditions can alter the active site and denature the enzyme.</li><li><b>Substrate concentration:</b> rate increases as more substrate is available, until all active sites are occupied.</li></ul>
+<div class="key"><b>Key distinction:</b> Denaturation is a change in the enzyme's structure and active-site shape. It is not simply the enzyme being used up.</div>
+</section>
+
+<section class="panel page hidden" id="plant">
+<div class="eyebrow">Topic 04</div><h2>Plant nutrition</h2>
+<p>Photosynthesis is the process by which plants make carbohydrates from carbon dioxide and water using light energy absorbed by chlorophyll.</p>
+<div class="callout"><b>Word equation:</b><br>carbon dioxide + water → glucose + oxygen<br><small>Light energy and chlorophyll are required.</small></div>
+<div class="diagram"><svg viewBox="0 0 620 270" role="img" aria-label="Photosynthesis inputs and outputs"><rect x="220" y="70" width="180" height="110" rx="18" fill="#dff7ed" stroke="#168b63" stroke-width="3"/><text x="310" y="112" text-anchor="middle" font-size="19" font-weight="bold" fill="#14563f">LEAF</text><text x="310" y="140" text-anchor="middle" font-size="14" fill="#14563f">chlorophyll</text><g stroke="#31506f" stroke-width="3" fill="none"><path d="M60 115 H210 M400 115 H560 M310 25 V60 M310 190 V230"/></g><g fill="#172033" font-size="16"><text x="18" y="98">CO₂ from air</text><text x="450" y="98">O₂ released</text><text x="250" y="18">Light</text><text x="250" y="255">Water from roots</text></g><path d="M300 28 L310 10 L320 28 M300 230 L310 248 L320 230" stroke="#31506f" stroke-width="3" fill="none"/></svg><div class="caption">Inputs and outputs of photosynthesis.</div></div>
+<h3>Limiting factors</h3><ul class="check"><li>Light intensity</li><li>Carbon dioxide concentration</li><li>Temperature</li></ul>
+<p>A limiting factor is the factor in shortest supply that prevents the rate from increasing further.</p>
+<h3>Mineral ions</h3><ul class="check"><li><b>Nitrate ions:</b> needed to make amino acids and proteins. Deficiency can cause poor growth and yellowing of older leaves.</li><li><b>Magnesium ions:</b> needed to make chlorophyll. Deficiency can cause yellowing of leaves.</li></ul>
+</section>
+
+<section class="panel page hidden" id="human">
+<div class="eyebrow">Topic 05</div><h2>Human nutrition</h2>
+<p>A balanced diet contains the right amounts of carbohydrates, proteins, lipids, vitamins, minerals, fibre and water for an individual's needs.</p>
+<h3>Digestive system</h3>
+<div class="diagram"><svg viewBox="0 0 520 390" role="img" aria-label="Simplified human digestive system"><path d="M220 30 Q250 15 280 30 L275 75 Q310 100 300 145 Q290 175 310 195 Q340 230 300 275 Q280 300 285 345" fill="none" stroke="#d18b66" stroke-width="18" stroke-linecap="round"/><path d="M275 75 Q220 85 220 130 Q220 175 275 175 Q320 175 300 145" fill="none" stroke="#b56a50" stroke-width="10"/><path d="M200 205 Q160 185 155 230 Q145 280 190 295 Q230 310 255 280 Q285 250 250 220" fill="none" stroke="#d59b54" stroke-width="13"/><path d="M205 225 Q245 195 275 225 Q310 255 275 285 Q240 315 205 285 Q175 260 205 225Z" fill="none" stroke="#6b9eaf" stroke-width="7"/><g font-size="15" fill="#172033" stroke="#64748b" stroke-width="1.5"><path d="M260 45 H390"/><text x="398" y="50" stroke="none">Mouth</text><path d="M290 110 H390"/><text x="398" y="115" stroke="none">Oesophagus</text><path d="M300 155 H390"/><text x="398" y="160" stroke="none">Stomach</text><path d="M255 245 H390"/><text x="398" y="250" stroke="none">Small intestine</text><path d="M175 280 H50"/><text x="8" y="275" stroke="none">Large intestine</text></g></svg><div class="caption">Simplified digestive-system route; organs are not to scale.</div></div>
+<p><b>Route:</b> mouth → oesophagus → stomach → small intestine → large intestine → rectum → anus.</p>
+<h3>Digestive enzymes</h3><ul class="check"><li><b>Amylase:</b> starch → maltose (a reducing sugar).</li><li><b>Protease:</b> proteins → amino acids (via smaller peptides).</li><li><b>Lipase:</b> lipids → fatty acids + glycerol.</li></ul>
+<h3>Absorption in the small intestine</h3><p>Villi and microvilli provide a large surface area. Their epithelium is thin, and each villus has a good blood supply. Lacteals absorb products of fat digestion.</p>
+<div class="key"><b>Remember:</b> Digestion breaks large, insoluble molecules into small, soluble molecules so they can be absorbed.</div>
+</section>
+
+<section class="panel page hidden" id="transport">
+<div class="eyebrow">Topic 06</div><h2>Transport in plants and humans</h2>
+<h3>Transport in plants</h3><div class="grid2"><div class="tile"><b>Xylem</b>Transports water and mineral ions from roots towards leaves. Xylem vessels are dead, hollow tubes strengthened with lignin.</div><div class="tile"><b>Phloem</b>Transports sucrose and amino acids between sources and sinks. This movement is called translocation.</div></div>
+<p><b>Transpiration</b> is the loss of water vapour from leaves, mainly through stomata. Evaporation from leaf cells and diffusion of water vapour out of stomata help create a transpiration stream.</p>
+<h3>Human circulatory system</h3><p>Humans have a double circulatory system: blood passes through the heart twice in one complete circuit — once through the lungs and once through the rest of the body.</p>
+<div class="diagram"><svg viewBox="0 0 620 270" role="img" aria-label="Double circulation flow diagram"><rect x="220" y="15" width="180" height="55" rx="12" fill="#e6f1ff" stroke="#3476bd" stroke-width="2"/><text x="310" y="48" text-anchor="middle" font-size="18" fill="#173b67">LUNGS</text><rect x="220" y="195" width="180" height="55" rx="12" fill="#fff0e8" stroke="#c66a42" stroke-width="2"/><text x="310" y="228" text-anchor="middle" font-size="18" fill="#873d20">BODY</text><rect x="30" y="100" width="170" height="60" rx="12" fill="#e9e4ff" stroke="#7259b5" stroke-width="2"/><text x="115" y="135" text-anchor="middle" font-size="17" fill="#49358c">RIGHT HEART</text><rect x="420" y="100" width="170" height="60" rx="12" fill="#ffe6e6" stroke="#bd5555" stroke-width="2"/><text x="505" y="135" text-anchor="middle" font-size="17" fill="#8d3030">LEFT HEART</text><g fill="none" stroke-width="4"><path d="M200 115 Q240 80 260 70" stroke="#3476bd"/><path d="M360 70 Q400 80 420 115" stroke="#c94f4f"/><path d="M420 145 Q400 180 360 195" stroke="#c94f4f"/><path d="M260 195 Q230 180 200 145" stroke="#3476bd"/></g><g font-size="13" fill="#34445c"><text x="215" y="92">pulmonary artery</text><text x="370" y="92">pulmonary vein</text><text x="365" y="183">aorta</text><text x="215" y="183">vena cava</text></g></svg><div class="caption">Simplified double circulation. Arrows show the general route of blood flow.</div></div>
+<ul class="check"><li><b>Arteries:</b> carry blood away from the heart; thick muscular and elastic walls.</li><li><b>Veins:</b> carry blood towards the heart; thinner walls and valves.</li><li><b>Capillaries:</b> very narrow vessels with walls one cell thick for exchange of substances.</li></ul>
+</section>
+
+<section class="panel page hidden" id="respiration">
+<div class="eyebrow">Topic 07</div><h2>Respiration</h2>
+<p>Respiration is the chemical process in cells that releases energy from food molecules. It is not the same as breathing.</p>
+<div class="grid2"><div class="tile"><b>Aerobic respiration</b>Uses oxygen and releases a large amount of energy.<br><b>Glucose + oxygen → carbon dioxide + water</b></div><div class="tile"><b>Anaerobic respiration in muscles</b>Occurs without oxygen and releases less energy.<br><b>Glucose → lactic acid</b></div></div>
+<h3>Gas exchange in the lungs</h3><p>Alveoli provide a large surface area, have thin walls, a moist lining and a rich blood supply. These features allow rapid diffusion of oxygen into blood and carbon dioxide out of blood.</p>
+<div class="diagram"><svg viewBox="0 0 600 250" role="img" aria-label="Alveolus and capillary gas exchange diagram"><circle cx="230" cy="120" r="78" fill="#ffe4e6" stroke="#cc6672" stroke-width="4"/><path d="M230 42 V12" stroke="#cc6672" stroke-width="7"/><path d="M165 75 Q105 20 70 85 Q45 140 110 185 Q160 225 205 190" fill="none" stroke="#b74f5b" stroke-width="13"/><path d="M255 190 Q300 225 350 185 Q405 140 375 85 Q345 20 295 75" fill="none" stroke="#b74f5b" stroke-width="13"/><g stroke="#2776bd" stroke-width="3" fill="none"><path d="M135 105 H185"/><path d="M175 95 L187 105 L175 115"/><path d="M275 145 H325"/><path d="M315 135 L327 145 L315 155"/></g><g fill="#172033" font-size="16"><text x="205" y="125">Alveolus</text><text x="405" y="90">O₂ into blood</text><text x="405" y="155">CO₂ into alveolus</text><text x="35" y="235">Surrounding capillary</text></g></svg><div class="caption">Gas exchange by diffusion between an alveolus and surrounding capillary.</div></div>
+</section>
+
+<section class="panel page hidden" id="excretion">
+<div class="eyebrow">Topic 08</div><h2>Excretion and homeostasis</h2>
+<p><b>Excretion</b> is the removal of toxic materials, the waste products of metabolism and substances in excess of requirements.</p>
+<ul class="check"><li><b>Kidneys:</b> remove urea and regulate water and ion concentrations in the blood.</li><li><b>Lungs:</b> remove carbon dioxide and water vapour.</li><li><b>Liver:</b> forms urea from excess amino acids by deamination.</li></ul>
+<h3>Urine formation</h3><p>Blood is filtered in the kidney. Useful substances such as all glucose, some water and needed ions are selectively reabsorbed. Urea and excess water and ions remain in the filtrate and form urine.</p>
+<div class="callout"><b>Homeostasis</b> is the maintenance of a constant internal environment, within narrow limits. Examples include regulation of blood glucose and body temperature.</div>
+</section>
+
+<section class="panel page hidden" id="coordination">
+<div class="eyebrow">Topic 09</div><h2>Coordination and response</h2>
+<p>The nervous system coordinates rapid responses using electrical impulses. Hormones are chemical messengers carried in the blood and usually produce slower, longer-lasting effects.</p>
+<h3>Reflex arc</h3>
+<div class="diagram"><svg viewBox="0 0 620 180" role="img" aria-label="Reflex arc sequence"><g fill="#eaf1ff" stroke="#3569aa" stroke-width="2"><rect x="10" y="55" width="105" height="55" rx="10"/><rect x="135" y="55" width="105" height="55" rx="10"/><rect x="260" y="55" width="105" height="55" rx="10"/><rect x="385" y="55" width="105" height="55" rx="10"/><rect x="510" y="55" width="105" height="55" rx="10"/></g><g font-size="13" text-anchor="middle" fill="#172033"><text x="62" y="78">Receptor</text><text x="62" y="96">detects</text><text x="187" y="78">Sensory</text><text x="187" y="96">neurone</text><text x="312" y="78">Relay</text><text x="312" y="96">neurone</text><text x="437" y="78">Motor</text><text x="437" y="96">neurone</text><text x="562" y="78">Effector</text><text x="562" y="96">responds</text></g><g stroke="#334155" stroke-width="3" fill="none"><path d="M115 82 H132 M240 82 H257 M365 82 H382 M490 82 H507"/></g><g fill="#334155"><path d="M126 75 L135 82 L126 89 M251 75 L260 82 L251 89 M376 75 L385 82 L376 89 M501 75 L510 82 L501 89"/></g><text x="310" y="145" text-anchor="middle" font-size="14" fill="#53627a">A rapid, automatic response that helps protect the body</text></svg><div class="caption">Simplified reflex arc sequence.</div></div>
+<p><b>Pathway:</b> stimulus → receptor → sensory neurone → central nervous system → motor neurone → effector → response.</p>
+<h3>Eye and hormones</h3><p>The eye detects light. The iris controls pupil size; the lens changes shape to focus light on the retina. Hormones are produced by endocrine glands and transported in the blood to target organs.</p>
+</section>
+
+<section class="panel page hidden" id="reproduction">
+<div class="eyebrow">Topic 10</div><h2>Reproduction</h2>
+<p>Reproduction produces new individuals. Asexual reproduction involves one parent and no fusion of gamete nuclei; sexual reproduction involves fusion of male and female gamete nuclei.</p>
+<div class="grid2"><div class="tile"><b>Asexual</b>Usually genetically identical offspring (clones). It can be rapid and does not require a mate.</div><div class="tile"><b>Sexual</b>Offspring show genetic variation because genetic material from two gametes combines.</div></div>
+<h3>Flower structure</h3><ul class="check"><li><b>Anther:</b> produces pollen grains containing male nuclei.</li><li><b>Stigma:</b> receives pollen.</li><li><b>Ovary:</b> contains ovules; after fertilisation, ovules develop into seeds.</li><li><b>Petals:</b> often attract pollinators.</li></ul>
+<h3>Pollination and fertilisation</h3><p>Pollination is the transfer of pollen from anther to stigma. Fertilisation is the fusion of the male nucleus with the female nucleus.</p>
+<h3>Human reproduction</h3><p>In humans, fertilisation usually occurs in the oviduct. The zygote divides by mitosis and develops into an embryo. The placenta allows exchange of materials between maternal and fetal blood without the two blood supplies normally mixing directly.</p>
+</section>
+
+<section class="panel page hidden" id="inheritance">
+<div class="eyebrow">Topic 11</div><h2>Inheritance</h2>
+<p>Inheritance is the transmission of genetic information from parents to offspring. DNA is the genetic material; a gene is a length of DNA that codes for a protein or functional product.</p>
+<ul class="check"><li><b>Chromosome:</b> a long DNA molecule associated with proteins.</li><li><b>Alleles:</b> different versions of the same gene.</li><li><b>Genotype:</b> the alleles an organism has.</li><li><b>Phenotype:</b> the observable characteristics, influenced by genotype and sometimes environment.</li><li><b>Dominant allele:</b> expressed in the phenotype when one copy is present.</li><li><b>Recessive allele:</b> expressed in the phenotype only when two copies are present (for a typical single-gene example).</li></ul>
+<h3>Example genetic cross</h3><p>For a simple characteristic where <b>B</b> is dominant and <b>b</b> is recessive, crossing Bb × Bb gives:</p>
+<div class="diagram"><svg viewBox="0 0 440 240" role="img" aria-label="Punnett square for Bb crossed with Bb"><text x="220" y="25" text-anchor="middle" font-size="17" fill="#172033">Bb × Bb</text><g stroke="#64748b" stroke-width="2" fill="#f8fafc"><rect x="120" y="55" width="200" height="160"/><path d="M220 55 V215 M120 135 H320"/></g><g fill="#172033" font-size="24" text-anchor="middle"><text x="170" y="95">BB</text><text x="270" y="95">Bb</text><text x="170" y="175">Bb</text><text x="270" y="175">bb</text></g><g fill="#53627a" font-size="15"><text x="170" y="48" text-anchor="middle">B</text><text x="270" y="48" text-anchor="middle">b</text><text x="105" y="101" text-anchor="end">B</text><text x="105" y="181" text-anchor="end">b</text></g></svg><div class="caption">Expected genotype ratio: 1 BB : 2 Bb : 1 bb. Phenotype ratio: 3 dominant : 1 recessive, if dominance is complete.</div></div>
+</section>
+
+<section class="panel page hidden" id="ecology">
+<div class="eyebrow">Topic 12</div><h2>Ecology and the environment</h2>
+<p>Ecology is the study of relationships between organisms and their environment.</p>
+<ul class="check"><li><b>Population:</b> all organisms of one species in an area.</li><li><b>Community:</b> all populations of different species in an area.</li><li><b>Ecosystem:</b> a community and its physical environment.</li><li><b>Habitat:</b> the place where an organism lives.</li></ul>
+<h3>Food chains and energy</h3><p>A food chain shows feeding relationships and the direction of energy transfer. Producers make their own organic nutrients, usually by photosynthesis. Consumers obtain energy by feeding on other organisms.</p>
+<div class="diagram"><svg viewBox="0 0 600 150" role="img" aria-label="Simple food chain"><g fill="#e7f6e9" stroke="#43895b" stroke-width="2"><rect x="10" y="40" width="120" height="60" rx="10"/><rect x="170" y="40" width="120" height="60" rx="10"/><rect x="330" y="40" width="120" height="60" rx="10"/><rect x="490" y="40" width="100" height="60" rx="10"/></g><g fill="#173b29" font-size="16" text-anchor="middle"><text x="70" y="76">Grass</text><text x="230" y="76">Grasshopper</text><text x="390" y="76">Frog</text><text x="540" y="76">Snake</text></g><g stroke="#334155" stroke-width="3" fill="none"><path d="M130 70 H165 M290 70 H325 M450 70 H485"/></g><g fill="#334155"><path d="M157 63 L167 70 L157 77 M317 63 L327 70 L317 77 M477 63 L487 70 L477 77"/></g><text x="300" y="130" text-anchor="middle" font-size="13" fill="#53627a">Arrows point from food to feeder (direction of energy transfer)</text></svg><div class="caption">Example food chain.</div></div>
+<h3>Decomposition and nutrient cycles</h3><p>Decomposers such as bacteria and fungi break down dead organisms and waste. This releases mineral ions back into the environment, where plants can absorb them.</p>
+<h3>Human impacts</h3><p>Deforestation, pollution, habitat destruction and overuse of resources can reduce biodiversity. Conservation aims to protect species, habitats and ecosystems.</p>
+</section>
+</main></div>
+<footer>© SudaisStudyCity · O Level Biology revision space · Keep learning one topic at a time.</footer>
+<script>
+const buttons=[...document.querySelectorAll('.nav')], pages=[...document.querySelectorAll('.page')];
+buttons.forEach(b=>b.addEventListener('click',()=>{buttons.forEach(x=>x.classList.toggle('active',x===b));pages.forEach(p=>p.classList.toggle('hidden',p.id!==b.dataset.page));window.scrollTo({top:0,behavior:'smooth'});}));
+</script>
+</body></html>
